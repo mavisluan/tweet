@@ -11,6 +11,16 @@ body {
   background-color: white;
 }
 
+.card-avatar {
+  margin-right: 20px;
+  border-radius: 20px;
+}
+
+.card-info span {
+  color: darkgray;
+  font-size: medium
+}
+
 li {
   list-style: none;
 }

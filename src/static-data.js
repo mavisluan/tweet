@@ -13,7 +13,7 @@ export const tweets = [
         id: 1, 
         userName: 'Jessie',
         handleName: 'awesomeJessie',
-        avatar: require(`./icons/panda.jpeg`),
+        avatar: require(`./icons/panda.png`),
         message: `I'm a big fan of pandas. They're so cute!`,
         timeStamp: '2018-03-23 21:19:42',
         retweet: 12,

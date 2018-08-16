@@ -1,14 +1,12 @@
 import React from 'react'
-
+import Time from './Time'
 const Card = ({ item: { id, userName, avatar, handleName, message, timeStamp, retweet, like} }) => (
     <div className='card'>
-      <div className='card-avatar'>
-        <img src={avatar} height='50px' width='50px' alt={userName}/>
-      </div>
+    <img className='card-avatar' src={avatar} height='80px' width='80px' alt={userName}/>
       <div className='card-info'>
-        <span>{userName}</span>
-        <span>{handleName}</span>
-        <span>Time</span>
+        <span style={{ fontSize: 'large', fontWeight: 'bold', color: 'black'}}>{userName}</span>
+        <span> @{handleName}</span>
+        <Time time={timeStamp} />
         <p>{message}</p>
         <div className='card-buttons'>buttons</div>
       </div>
