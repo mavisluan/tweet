@@ -24,3 +24,7 @@ body {
 li {
   list-style: none;
 }
+
+i {
+  padding-right: 60px;
+}

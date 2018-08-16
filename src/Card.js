@@ -1,6 +1,8 @@
 import React from 'react'
 import Time from './Time'
-const Card = ({ item: { id, userName, avatar, handleName, message, timeStamp, retweet, like} }) => (
+import Buttons from './Buttons'
+
+const Card = ({ item: { userName, avatar, handleName, message, timeStamp, retweet, like} }) => (
     <div className='card'>
     <img className='card-avatar' src={avatar} height='80px' width='80px' alt={userName}/>
       <div className='card-info'>
@@ -8,7 +10,9 @@ const Card = ({ item: { id, userName, avatar, handleName, message, timeStamp, re
         <span> @{handleName}</span>
         <Time time={timeStamp} />
         <p>{message}</p>
-        <div className='card-buttons'>buttons</div>
+        <div className='card-buttons'>
+            <Buttons retweet={retweet} like={like}/>
+        </div>
       </div>
     </div>
   )
