@@ -1,8 +1,8 @@
 ## Tweet Project
 
-Tweet Project is built with [Create React App]. It displays tweet cards. 
+This is a simple twitter card project. It displays tweet cards with static data.
 
-It is a project for myself to practice using 'Props'.
+Each card shows a user's avatar, user name, message, posting time from now and buttons to reply, retweet and like the tweet.
 
 
 ## Project Screenshot
