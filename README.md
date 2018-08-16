@@ -12,7 +12,7 @@ Each card shows a user's avatar, user name, message, posting time from now and b
 
 ## Instructions for installment
 
-* clone my repo `https://github.com/mavisluan/tweet`
-* install all project dependencies with `npm install`
-* start the development server with `npm start`
+* clone my repo `git clone https://github.com/mavisluan/tweet`
+* install all project dependencies with `yarn install`
+* start the development server with `yarn start`
 
