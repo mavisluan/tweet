@@ -2,7 +2,7 @@
 
 Tweet Project is built with [Create React App]. It displays tweet cards. 
 
-It is a good practice project for React beginners to practice using 'Props'.
+It is a project for myself to practice using 'Props'.
 
 
 ## Project Screenshot
