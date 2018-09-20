@@ -6,7 +6,7 @@
 
 ## Project Screenshot
 
-![](src/icons/twitter_project.png)
+<img src='src/icons/twitter_project.png' width='600'>
 
 
 ## Instructions for installment
