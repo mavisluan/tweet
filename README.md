@@ -1,4 +1,4 @@
-## Tweet Project
+# Tweet Project
 
 - This is a simple twitter card project, built with ReactJS. 
 - It displays tweet cards.
