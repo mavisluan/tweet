@@ -1,15 +1,13 @@
 import React from 'react';
-import Card from './Card'
+import Tweet from './Tweet'
 import './App.css';
-import { tweets } from './static-data'
-
-const Tweet = () => (
-  <ul className='tweet'>
+import {Container} from 'react-bootstrap';
+import {tweets} from './static-data'
+const App = () => (
+  <Container className="p-3">
     {tweets.map(tweet => (
-      <li key={tweet.id}>
-        <Card item={tweet}/>
-      </li>
+      <Tweet item={tweet}/>
     ))}
-  </ul>
-)
-export default Tweet;
+  </Container>
+);
+export default App;

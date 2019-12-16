@@ -1,12 +1,12 @@
 import React from 'react'
-
+import {Row, Col} from 'react-bootstrap'
 const Buttons = ({ retweet, like }) => (
-    <div>
-        <span><i className="fas fa-reply"></i></span>
-        <span><i className="fas fa-retweet"> {retweet}</i></span>
-        <span><i className="fas fa-heart"> {like}</i></span>
-        <span><i className="fas fa-ellipsis-h"></i> </span>
-    </div>
+    <Row className="text-black-50">
+        <Col xs={3}><i className="fas fa-reply"></i></Col>
+        <Col xs={3}><i className="fas fa-retweet"> {retweet}</i></Col>
+        <Col xs={3}><i className="fas fa-heart"> {like}</i></Col>
+        <Col xs={3}><i className="fas fa-ellipsis-h"></i> </Col>
+    </Row>
 )
 
 export default Buttons
